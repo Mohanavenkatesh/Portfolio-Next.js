@@ -1,5 +1,4 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import { Analytics } from "@vercel/analytics/next"
 import "../styles/globals.css";
 import { Inter, Lora } from "next/font/google"
 
