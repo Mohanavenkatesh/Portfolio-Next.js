@@ -1,6 +1,8 @@
 import { Analytics } from "@vercel/analytics/next"
 import "../styles/globals.css";
 import { Inter, Lora } from "next/font/google"
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 // Lora font family
 const LoraFont = Lora({
@@ -27,11 +29,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${LoraFont.variable} ${InterFont.variable}`}>
+    <html lang="en" className={` ${InterFont.variable}`}>
       <body className={`antialiased`} >
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html >
   );
