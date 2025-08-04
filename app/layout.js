@@ -1,26 +1,25 @@
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 import "../styles/globals.css";
-import { Inter, Lora } from "next/font/google"
+import { Inter, Lora } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { ThemeProvider } from "next-themes";
 
 // Lora font family
 const LoraFont = Lora({
-  subsets: ['latin'],
-  weight: ['600'],
-  display: 'swap',
-  variable: '--font-lora'
-})
+  subsets: ["latin"],
+  weight: ["600"],
+  display: "swap",
+  variable: "--font-lora",
+});
 
 // Inter font family
 const InterFont = Inter({
-
-  subsets: ['latin'],
-  weight: ['600'],
-  display: 'swap',
-  variable: '--font-inter'
-
-})
+  subsets: ["latin"],
+  weight: ["600"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata = {
   title: "Mohan Next.js App",
@@ -30,11 +29,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={` ${InterFont.variable}`}>
-      <body className={`antialiased`}  >
-        <Navbar />
-        {children}
-        <Footer />
+      <body className={`antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
-    </html >
+    </html>
   );
 }
