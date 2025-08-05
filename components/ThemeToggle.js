@@ -15,7 +15,7 @@ export const ThemeToggle = () => {
   return(
   <>
     <button onClick={() => setTheme(resolvedTheme === 'dark' ? "light" : "dark")}>
-      {resolvedTheme === 'dark' ? "Light Mode " : "dark Mode "}
+      {resolvedTheme === 'dark' ? "Light Mode " : "Dark Mode "}
     </button>
   </>
   )

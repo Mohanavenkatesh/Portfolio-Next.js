@@ -1,25 +1,33 @@
 import { Analytics } from "@vercel/analytics/next";
 import "../styles/globals.css";
-import { Inter, Lora } from "next/font/google";
+import { Inter, Lora, Quicksand } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ThemeProvider } from "next-themes";
+import { ThemeToggle } from "../components/ThemeToggle";
+
+const Quicksandfont = Quicksand({
+  subsets: ["latin"],
+  weight: ["600"],
+  display: "swap",
+  variable: "--font-Quicksand",
+});
 
 // Lora font family
-const LoraFont = Lora({
-  subsets: ["latin"],
-  weight: ["600"],
-  display: "swap",
-  variable: "--font-lora",
-});
+// const LoraFont = Lora({
+//   subsets: ["latin"],
+//   weight: ["600"],
+//   display: "swap",
+//   variable: "--font-lora",
+// });
 
 // Inter font family
-const InterFont = Inter({
-  subsets: ["latin"],
-  weight: ["600"],
-  display: "swap",
-  variable: "--font-inter",
-});
+// const InterFont = Inter({
+//   subsets: ["latin"],
+//   weight: ["600"],
+//   display: "swap",
+//   variable: "--font-inter",
+// });
 
 export const metadata = {
   title: "Mohan Next.js App",
@@ -28,11 +36,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={` ${InterFont.variable}`}>
+    <html lang="en" className={`${Quicksandfont.variable}`}>
       <body className={`antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {children}
+          <div className="fixed bottom-2 right-5 z-50">
+            <ThemeToggle />
+          </div>
           <Footer />
         </ThemeProvider>
       </body>
