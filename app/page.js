@@ -8,8 +8,9 @@ const page = () => {
         <div className="flex flex-col justify-center items-center p-5">
           <h1> Mohanavenkatesh</h1>
           <p>Web Developer </p>
-          <p>Gaining experience every day.</p>
+          <p>Gaining experience every day</p>
         </div>
+        
       </div>
     </>
   );
