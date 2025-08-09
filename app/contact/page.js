@@ -1,11 +1,14 @@
 import React from 'react'
 
-const page = () => {
+const page = ({ children }) => {
   return (
     <>
       <div className='h-screen flex justify-center items-center'>
         <div>
           <h1>Contact us </h1>
+          <h1>Whatsapp</h1>
+          <h1>Instagram</h1>
+          <h1>Mail</h1>
         </div>
       </div>
     </>

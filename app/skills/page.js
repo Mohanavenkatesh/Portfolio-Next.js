@@ -1,10 +1,13 @@
 import React from 'react'
 
-const page = () => {
+const page = ({ children }) => {
     return (
         <>
             <div className='h-screen flex justify-center items-center'>
-                <h1>Skills section</h1>
+                <div className='flex flex-col'>
+                    <h1>React.js</h1>
+                    <h1>Next.js</h1>
+                </div>
             </div>
         </>
     )
