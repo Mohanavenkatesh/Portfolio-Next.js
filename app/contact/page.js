@@ -3,7 +3,7 @@ import React from 'react'
 const page = ({ children }) => {
   return (
     <>
-      <div className='h-screen flex justify-center items-center'>
+      <div className='flex mx-6 items-center'>
         <div>
           <h1>Contact us </h1>
           <h1>Whatsapp</h1>

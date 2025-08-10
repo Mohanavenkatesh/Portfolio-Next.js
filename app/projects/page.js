@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
 
-const page = ({children}) => {
+const page = ({ children }) => {
   return (
     <>
 
-      <div className='h-screen flex justify-center items-center'>
+      <div className='mx-6 flex  items-center'>
 
 
         <div >

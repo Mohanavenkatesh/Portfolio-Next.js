@@ -26,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${Quicksandfont.variable}`}>
-      <body className={`antialiased`}>
+      <body className={`antialiased  max-w-xl  mt-8 mx-auto`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {children}
