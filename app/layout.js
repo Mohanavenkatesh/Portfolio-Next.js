@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
 import "../styles/globals.css";
 import { Quicksand } from "next/font/google";
 import Navbar from "../components/Navbar";
