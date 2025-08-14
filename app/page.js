@@ -13,8 +13,11 @@ const page = () => {
           <p>I’m Mohan, a passionate frontend developer with a knack for building clean, responsive, and user-friendly web applications. Skilled in HTML, CSS, JavaScript, and modern frameworks like React and Next.js, I focus on crafting engaging UI experiences with attention to detail and performance. My goal is to blend aesthetics with functionality, creating interfaces that users love to interact with.</p>
           <h1 className="my-8  text-2xl font-semibold">My Skills</h1>
         </div>
-        <Image src="/nextjs-dark-theme.svg" width={50} height={50} className="hidden dark:block" alt="Next.js Dark Theme Logo" priority />
-        <Image src="/nextjs-light-theme.svg" width={50} height={50} className="block dark:hidden" alt="Next.js Light Theme Logo" priority />
+        <h1>MangoDB</h1>
+        <h1>Express.js</h1>
+        <h1>Node.js</h1>
+        <h1>React.js</h1>
+        <h1>Next.js</h1>
         <Analytics />
       </div>
     </>
