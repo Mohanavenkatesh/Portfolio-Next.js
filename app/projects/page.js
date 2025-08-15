@@ -12,9 +12,9 @@ const page = ({ children }) => {
         </p>
         <div>
           <div className='flex flex-col mb-4'>
-            <h2 className='font-semibold mb-1'>Project One - Bite</h2>
+            <h2 className='font-semibold mb-1'>1. Bite (Bitetoothpastebits.com Clone)</h2>
             <p className='mb-1'>
-              Bite is a responsive food recipe web application that allows users to browse, search, and view a variety of recipes. Built with HTML, CSS, and JavaScript, the project focuses on clean UI, easy navigation, and a seamless user experience. Users can explore different cuisines and discover new dishes with ease.
+              Bite is a clone of the <a href="https://bitetoothpastebits.com/" target="_blank" rel="noopener noreferrer">bitetoothpastebits.com</a> website. This project replicates the design and core functionality of the original site using HTML, CSS, and JavaScript, focusing on responsive layouts, clean UI, and smooth user experience.
             </p>
             <a
               href='https://mohanavenkatesh.github.io/Bite/'
@@ -26,12 +26,12 @@ const page = ({ children }) => {
             </a>
           </div>
           <div className='flex flex-col mb-4'>
-            <h2 className='font-semibold mb-1'>Project Two - Attendance App</h2>
+            <h2 className='font-semibold mb-1'>2. Spotify Premium Clone</h2>
             <p className='mb-1'>
-              Attendance App is a simple and efficient web application designed to help users track and manage attendance records. Built using modern web technologies, it allows users to add, view, and update attendance data with an intuitive interface. The project emphasizes ease of use and reliability, making it suitable for classrooms, teams, or small organizations.
+              I cloned the Spotify Premium site as a beginner project using only HTML and CSS. This project helped me practice layout and styling by recreating the look and feel of the original Spotify Premium landing page. You can view the live project at the link below.
             </p>
             <a
-              href='https://github.com/Mohanavenkatesh/Attendance-app'
+              href='https://spotify-project-clone.netlify.app/'
               target='_blank'
               rel='noopener noreferrer'
               className='text-blue-600 underline'
