@@ -6,7 +6,7 @@ import { ThemeToggle } from "./ThemeToggle";
 const Navbar = () => {
   return (
     <>
-      <div className="flex mx-6 mb-16 gap-5">
+      <div className="flex mx-6 mb-10 gap-5">
         <Link href="/">Home</Link>
         <Link href="/projects">Projects</Link>
         <Link href="/contact">Contact</Link>
