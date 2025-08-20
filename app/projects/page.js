@@ -18,6 +18,8 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
+import Image from 'next/image'
+
 
 const page = ({ children }) => {
   return (
@@ -39,7 +41,14 @@ const page = ({ children }) => {
 
                   </CardHeader>
                   <CardContent>
-                    Bite is a clone of the bitetoothpastebits.com website. This project replicates the design and core functionality of the original site using HTML, CSS, and JavaScript, focusing on responsive layouts, clean UI, and smooth user experience.             </CardContent>
+                    Bite is a clone of the bitetoothpastebits.com website.
+                    This project replicates the design and core functionality of the original site using HTML, CSS,
+                    and JavaScript, focusing on responsive layouts, clean UI, and smooth user experience.
+                  </CardContent>
+
+                  <Image className='w-full px-5' src='/project-1.avif' width={400} height={300} alt='project-1-img' />
+
+
                   <CardFooter>
                     <a
                       href='https://mohanavenkatesh.github.io/Bite/'
@@ -62,6 +71,8 @@ const page = ({ children }) => {
                   <CardContent>
                     <p>I cloned the Spotify Premium site as a beginner project using only HTML and CSS. This project helped me practice layout and styling by recreating the look and feel of the original Spotify Premium landing page. You can view the live project at the link below.</p>
                   </CardContent>
+                  <Image className='w-full px-5' src='/project-2.avif' width={400} height={300} alt='project-2-img' />
+
                   <CardFooter>
                     <a
                       href='https://spotify-project-clone.netlify.app/'

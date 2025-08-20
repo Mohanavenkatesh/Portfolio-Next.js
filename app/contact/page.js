@@ -13,18 +13,6 @@ const page = ({ children }) => {
         </p>
         <div className='flex flex-col gap-3'>
           <div>
-            <Link href='https://www.instagram.com/mohanavenkatesh.a/' target='_blank' rel='noopener noreferrer'>
-              <Button variant="outline" className="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24">
-                  <rect width="18" height="18" x="3" y="3" rx="5" stroke="currentColor" strokeWidth="2"/>
-                  <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2"/>
-                  <circle cx="17" cy="7" r="1.2" fill="currentColor"/>
-                </svg>
-                Instagram
-              </Button>
-            </Link>
-          </div>
-          <div>
             <Link href='https://github.com/Mohanavenkatesh' target='_blank' rel='noopener noreferrer'>
               <Button variant="outline" className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24">
@@ -41,12 +29,24 @@ const page = ({ children }) => {
             <Link href='https://www.linkedin.com/in/mohanavenkatesh-a-3574382ab/' target='_blank' rel='noopener noreferrer'>
               <Button variant="outline" className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24">
-                  <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M7 10v7" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                  <circle cx="7" cy="7" r="1.1" fill="currentColor"/>
-                  <path d="M10.5 13.5V17h2v-2.1c0-.6.4-1.4 1.3-1.4s1.2.8 1.2 1.4V17h2v-2.7c0-1.7-1-2.5-2.3-2.5-1.1 0-1.6.6-1.9 1.1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                  <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" strokeWidth="2" />
+                  <path d="M7 10v7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  <circle cx="7" cy="7" r="1.1" fill="currentColor" />
+                  <path d="M10.5 13.5V17h2v-2.1c0-.6.4-1.4 1.3-1.4s1.2.8 1.2 1.4V17h2v-2.7c0-1.7-1-2.5-2.3-2.5-1.1 0-1.6.6-1.9 1.1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                 </svg>
                 Linkedin
+              </Button>
+            </Link>
+          </div>
+          <div>
+            <Link href='https://www.instagram.com/mohanavenkatesh.a/' target='_blank' rel='noopener noreferrer'>
+              <Button variant="outline" className="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24">
+                  <rect width="18" height="18" x="3" y="3" rx="5" stroke="currentColor" strokeWidth="2" />
+                  <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
+                  <circle cx="17" cy="7" r="1.2" fill="currentColor" />
+                </svg>
+                Instagram
               </Button>
             </Link>
           </div>
