@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <>
       <div className="flex mx-6 mb-10 gap-5">
-        <Link href="/">Home</Link>
-        <Link href="/projects">Projects</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/" className="hover:underline">Home</Link>
+        <Link href="/projects" className="hover:underline">Projects</Link>
+        <Link href="/contact" className="hover:underline">Contact</Link>
       </div>
     </>
   );
