@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { Button } from "@/components/ui/button"
 
 const page = ({ children }) => {
   return (
@@ -12,20 +13,20 @@ const page = ({ children }) => {
         </p>
         <div className='flex flex-col gap-3'>
           <div>
-            <Link href='https://www.instagram.com/mohanavenkatesh.a/' className='text-blue-600 underline' target='_blank' rel='noopener noreferrer'>
-              Instagram
+            <Link href='https://www.instagram.com/mohanavenkatesh.a/' target='_blank' rel='noopener noreferrer'>
+              <Button variant="outline">Instagram</Button>
             </Link>
             <span className='ml-2 text-gray-500'>– Follow me for updates and behind-the-scenes.</span>
           </div>
           <div>
-            <Link href='https://github.com/Mohanavenkatesh' className='text-blue-600 underline' target='_blank' rel='noopener noreferrer'>
-              Github
+            <Link href='https://github.com/Mohanavenkatesh' target='_blank' rel='noopener noreferrer'>
+            <Button variant="outline">Github</Button>
             </Link>
             <span className='ml-2 text-gray-500'>– Check out my projects and code.</span>
           </div>
           <div>
-            <Link href='https://www.linkedin.com/in/mohanavenkatesh-a-3574382ab/' className='text-blue-600 underline' target='_blank' rel='noopener noreferrer'>
-              LinkedIn
+            <Link href='https://www.linkedin.com/in/mohanavenkatesh-a-3574382ab/' target='_blank' rel='noopener noreferrer'>
+            <Button variant="outline">Linkedin</Button>
             </Link>
             <span className='ml-2 text-gray-500'>– Connect with me professionally.</span>
           </div>

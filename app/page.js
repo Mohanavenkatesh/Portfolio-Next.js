@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Analytics } from '@vercel/analytics/react';
 import React from "react";
+import { Button } from "@/components/ui/button"
 import Image from "next/image";
 
 
@@ -26,16 +27,15 @@ const page = () => {
           <li>RESTful APIs</li>
         </ul>
         <h2 className="text-xl font-semibold mb-2">Get in Touch</h2>
-        <p className="">
+        <p className="mb-3">
           Interested in collaborating or want to know more about my work? Feel free to{" "}
-          <a
-            href="/contact"
-            className="text-blue-600 underline"
-          >
-            contact me
-          </a>
           !
         </p>
+        <a
+          href="/contact"
+        >
+          <Button variant="outline">Contact me</Button>
+        </a>
         <Analytics />
       </div>
     </>
