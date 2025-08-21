@@ -8,7 +8,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className="flex flex-col mx-6">
+      <div className="flex flex-col mx-6 ">
         <div className="flex flex-col">
           <h1 className="mb-2 text-2xl font-semibold"> Mohan</h1>
           <p>

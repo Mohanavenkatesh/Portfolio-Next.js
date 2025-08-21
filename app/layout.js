@@ -1,9 +1,9 @@
 import "../styles/globals.css";
 import { Quicksand } from "next/font/google";
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ThemeProvider } from "next-themes";
 import { ThemeToggle } from "../components/ThemeToggle";
+import { NavigationMenu } from "../components/NavigationMenu";
 
 // Font
 const Quicksandfont = Quicksand({
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${Quicksandfont.variable}`}>
       <body className={`antialiased  max-w-xl  mt-8 mx-auto`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Navbar />
+          <NavigationMenu />
           {children}
           <div className="fixed bottom-2 right-5 z-50">
             <ThemeToggle />
