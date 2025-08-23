@@ -32,7 +32,7 @@ const page = ({ children }) => {
           A few projects highlighting my frontend skills and modern web tech.
         </p>
         <div>
-          <Carousel >
+          {/* <Carousel >
             <CarouselContent>
               <CarouselItem>
                 <Card>
@@ -88,7 +88,8 @@ const page = ({ children }) => {
             </CarouselContent>
             <CarouselPrevious className='hidden md:inline-flex' />
             <CarouselNext className='hidden md:inline-flex' />
-          </Carousel>
+          </Carousel> */}
+          <Projects />
         </div>
       </div>
 
