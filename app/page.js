@@ -8,11 +8,11 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className="flex flex-col mx-6 ">
+      <div className="flex flex-col mx-6">
         <div className="flex flex-col">
           <h1 className="mb-2 text-2xl font-semibold"> Mohan</h1>
           <p>
-            Web Developer 
+            Web Developer
           </p>
           <h1 className="my-8 text-2xl font-semibold">My Skills</h1>
         </div>

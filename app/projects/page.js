@@ -19,6 +19,7 @@ import {
 } from "@/components/ui/card"
 
 import Image from 'next/image'
+import { Projects } from '../../components/Projects'
 
 
 const page = ({ children }) => {
